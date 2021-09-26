@@ -7,4 +7,3 @@
     </tr>
     <?php endforeach; ?>
 </table>
-

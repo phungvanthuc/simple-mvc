@@ -1,4 +1,5 @@
 <?php
+
 class DB
 {
     private static $instance = NULl;
@@ -12,6 +13,7 @@ class DB
                 die($ex->getMessage());
             }
         }
+
         return self::$instance;
     }
 }
